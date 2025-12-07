@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rückenschmerzen behandeln mit TCM in Zürich | TAI TCM GmbH</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Effektive TCM-Behandlung bei Rückenschmerzen in Zürich Oerlikon: Akupunktur, Tuina-Massage, Schröpfen und Kräutertherapie. Sanft, natürlich und nachhaltig wirksam." />
+
+  <style>
+    :root {
+      --amber-50: #fffbeb;
+      --amber-100: #fef3c7;
+      --amber-600: #d97706;
+      --amber-700: #b45309;
+      --amber-800: #92400e;
+      --amber-900: #78350f;
+      --orange-50: #fff7ed;
+      --orange-600: #ea580c;
+      --green-500: #22c55e;
+      --yellow-400: #facc15;
+      --gray-100: #f3f4f6;
+      --gray-600: #4b5563;
+      --gray-700: #374151;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, var(--amber-50), var(--orange-50));
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Header */
+    header {
+      background: var(--white);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      padding: 1.5rem 0;
+    }
+
+    @media (min-width: 768px) {
+      .header-inner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+      }
+    }
+
+    .clinic-name {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--amber-900);
+    }
+
+    .clinic-subtitle {
+      color: var(--amber-700);
+      margin-top: 0.25rem;
+    }
+
+    .header-contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.2rem;
+      align-items: center;
+    }
+
+    .header-contact-item {
+      display: flex;
+      align-items: center;
+      font-size: 0.95rem;
+      color: var(--amber-800);
+    }
+
+    .header-contact-item span.icon {
+      margin-right: 0.4rem;
+      font-size: 1rem;
+    }
+
+    .lang-switch {
+      font-size: 0.95rem;
+      color: var(--amber-800);
+      margin-top: 0.4rem;
+      text-align: right;
+    }
+
+    .lang-switch a {
+      text-decoration: none;
+      color: var(--amber-800);
+    }
+
+    .lang-switch a:hover {
+      color: var(--amber-600);
+    }
+
+    /* 小屏 Header 响应式优化 */
+    @media (max-width: 768px) {
+      .header-inner {
+        align-items: flex-start;
+        padding: 1.2rem 0;
+      }
+
+      .header-contact {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .lang-switch {
+        width: 100%;
+        text-align: left;
+      }
+    }
+   
+    /* Hero */
+    .hero {
+      background: linear-gradient(90deg, var(--amber-600), var(--orange-600));
+      color: var(--white);
+      text-align: center;
+      padding: 4rem 0;
+    }
+
+    .hero-title {
+      font-size: 2.4rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-text {
+      font-size: 1.1rem;
+      max-width: 44rem;
+      margin: 0 auto 2rem auto;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @media (min-width: 640px) {
+      .hero-actions {
+        flex-direction: row;
+      }
+    }
+
+    .btn-primary {
+      background: var(--white);
+      color: var(--amber-700);
+      padding: 0.8rem 2.2rem;
+      border-radius: 999px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      border: 2px solid transparent;
+      cursor: pointer;
+    }
+
+    .btn-primary:hover {
+      background: #fffbeb;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      padding: 0.8rem 2.2rem;
+      border-radius: 999px;
+      font-weight: 600;
+      border: 2px solid var(--white);
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .btn-outline:hover {
+      background: var(--white);
+      color: var(--amber-700);
+    }
+
+    section {
+      padding: 4rem 0;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--amber-900);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: var(--amber-700);
+      max-width: 32rem;
+      margin: 0 auto 2.5rem auto;
+      font-size: 1rem;
+    }
+
+    /* About */
+    .about-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      align-items: center;
+    }
+
+    @media (min-width: 992px) {
+      .about-inner {
+        flex-direction: row;
+        align-items: stretch;
+      }
+    }
+
+    .about-photo,
+    .about-text {
+      flex: 1;
+    }
+    
+    .about-text p {
+      color: var(--gray-700);
+      margin-bottom: 1rem;
+    }
+
+    .about-list {
+      margin-top: 0.5rem;
+    }
+    
+    .about-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.6rem;
+      font-size: 0.96rem;
+      color: var(--gray-700);
+    }
+
+    .about-item span.icon {
+      color: var(--green-500);
+      margin-right: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .card-image {
+      border-radius: 0.75rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+.cert-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #faf7f2;
+}
+
+.cert-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7a3a00;
+    margin-bottom: 2rem;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.cert-grid img {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    background: white;
+}
+.mobile-padding {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+
+    /* Cards */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 768px) {
+      .cards-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .card {
+      background: var(--white);
+      border-radius: 0.9rem;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1.3rem 1.5rem;
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: var(--amber-900);
+    }
+
+    .card-text {
+      font-size: 0.95rem;
+      color: var(--gray-600);
+    }
+
+    /* Testimonial */
+    .testimonials {
+      background: var(--amber-100);
+    }
+
+    .testimonial-card {
+      background: var(--white);
+      border-radius: 0.9rem;
+      padding: 1.5rem;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+      font-size: 0.95rem;
+    }
+
+    .testimonial-stars {
+      color: var(--yellow-400);
+      margin-bottom: 0.7rem;
+      font-size: 1.1rem;
+    }
+
+    .testimonial-text {
+      color: var(--gray-700);
+      margin-bottom: 0.9rem;
+      font-style: italic;
+    }
+
+    .testimonial-name {
+      font-weight: 600;
+      color: var(--amber-800);
+    }
+
+    /* Preise – 价格区域 */
+    .prices-section {
+      background: #0f3c57;
+      color: #ffffff;
+      padding: 4rem 0;
+    }
+
+    .prices-section .section-title {
+      color: #ffffff;
+      margin-bottom: 2.5rem;
+    }
+
+    .price-list {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .price-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+      padding-bottom: 1rem;
+    }
+
+    .price-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    .price-sub {
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+
+    .price-value {
+      font-size: 1.2rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+     /* Contact */
+    .contact-inner {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+
+    @media (min-width: 900px) {
+      .contact-inner {
+        grid-template-columns: 1.1fr 1fr;
+      }
+    }
+
+    .contact-item {
+      display: flex;
+      margin-bottom: 0.9rem;
+      font-size: 0.96rem;
+      color: var(--gray-700);
+    }
+
+    .contact-item span.icon {
+      margin-right: 0.7rem;
+      color: var(--amber-600);
+      font-size: 1.2rem;
+    }
+
+    .contact-block-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--amber-900);
+      margin-bottom: 0.8rem;
+    }
+
+    .opening-hours-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.4rem;
+      font-size: 0.94rem;
+      color: var(--gray-700);
+    }
+
+    .booking-box {
+      background: var(--amber-50);
+      padding: 1.5rem;
+      border-radius: 0.9rem;
+      font-size: 0.96rem;
+    }
+
+    .btn-block {
+      display: block;
+      width: 100%;
+      background: var(--amber-600);
+      color: white;
+      text-align: center;
+      padding: 0.85rem;
+      border-radius: 0.6rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+
+    .btn-block:hover {
+      background: var(--amber-700);
+    }
+
+    .booking-note {
+      margin-top: 0.9rem;
+      font-size: 0.9rem;
+      color: var(--gray-700);
+      text-align: center;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--amber-900);
+      color: white;
+      padding: 2.5rem 0 1.8rem;
+    }
+
+    .footer-top {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    @media (min-width: 768px) {
+      .footer-top {
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+
+    .footer-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .footer-sub {
+      color: #fed7aa;
+      font-size: 0.9rem;
+      margin-top: 0.2rem;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-links a {
+      color: #fed7aa;
+      text-decoration: none;
+    }
+
+    .footer-links a:hover {
+      color: #ffffff;
+    }
+
+    .footer-bottom {
+      margin-top: 1.4rem;
+      color: #fbbf77;
+      text-align: center;
+      font-size: 0.85rem;
+      border-top: 1px solid #92400e;
+      padding-top: 1rem;
+    }
+
+/* 全局小屏细节优化 */
+    @media (max-width: 640px) {
+      .hero {
+        padding: 3rem 0 3.2rem;
+      }
+
+      .hero-title {
+        font-size: 1.9rem;
+      }
+
+      .hero-text {
+        font-size: 1rem;
+        padding: 0 0.3rem;
+      }
+
+      section {
+        padding: 3rem 0;
+      }
+
+      .container {
+        padding: 0 1.25rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <div>
+        <div class="clinic-name">TAI TCM GmbH</div>
+        <div class="clinic-subtitle">Ihr Weg zur natürlichen Gesundheit</div>
+      </div>
+      <div class="header-contact">
+        <div class="header-contact-item">
+          <span class="icon">☎</span>
+          <span>044 811 99 55</span>
+        </div>
+        <div class="header-contact-item">
+          <span class="icon">✉</span>
+          <span>xinbotai@gmail.com</span>
+        </div>
+      </div>
+    <div class="lang-switch">
+  <a href="index.html">Deutsch</a> |
+  <a href="index_en.html">English</a>
+ </div>
+ 
+ <style>
+.lang-switch {
+  font-size: 0.95rem;
+  color: var(--amber-800);
+  margin-top: 0.6rem;
+  text-align: right;
+}
+.lang-switch a {
+  text-decoration: none;
+  color: var(--amber-800);
+}
+.lang-switch a:hover {
+  color: var(--amber-600);
+}
+</style>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Rückenschmerzen ganzheitlich behandeln – mit Traditioneller Chinesischer Medizin (TCM)</h1>
+      <p class="hero-text">
+        Natürliche, sanfte und wirksame Therapie bei akuten und chronischen Rückenbeschwerden.
+      </p>
+
+      <div class="hero-actions">
+        <a
+          href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0jOrw-hPHEO957S6RZcBGwPS0rY0i-FUDVJ6Sfv0rNPMCD3MPv0u5TgITgNzB7ugn0w7aoWx57"
+          class="btn-primary"
+          target="_blank"
+        >Termin buchen</a>
+
+        <a href="#services" class="btn-outline">Unsere Leistungen</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Rückenbeschwerden – TCM Spezialisierung -->
+<section class="section">
+  <div class="container">
+
+    <!-- Intro -->
+    <h2 class="section-title">Rückenschmerzen ganzheitlich behandeln</h2>
+    <p class="section-subtitle" style="max-width: 760px; margin-bottom: 2rem;">
+      Rückenschmerzen gehören zu den häufigsten Beschwerden in der modernen Gesellschaft.
+      Die Traditionelle Chinesische Medizin (TCM) bietet bewährte, ursachenorientierte 
+      Behandlungsmethoden – sanft, tiefgreifend und ohne Nebenwirkungen.
+    </p>
+
+    <!-- List of common conditions -->
+    <h3 class="section-title" style="font-size: 1.6rem; margin-bottom: 1.6rem;">
+      Häufige Arten von Rückenschmerzen
+    </h3>
+
+    <ul class="tcm-backpain-list">
+  <li><a href="lws.html">• Lendenwirbelschmerzen (LWS)</a></li>
+  <li><a href="ischias.html">• Ischias / Ausstrahlung ins Bein</a></li>
+  <li><a href="bandscheibenvorfall.html">• Bandscheibenvorfall / Diskushernie</a></li>
+  <li><a href="verspannungen.html">• Muskelverspannungen & Myogelosen</a></li>
+  <li><a href="wirbelblockaden.html">• Blockaden der Wirbelgelenke</a></li>
+  <li><a href="hws.html">• Nacken-Schulter-Schmerzen (HWS)</a></li>
+  <li><a href="lumbago.html">• Hexenschuss (Lumbago)</a></li>
+  <li><a href="sitzen.html">• Schmerzen nach langem Sitzen oder Arbeiten</a></li>
+</ul>
+
+
+  </div>
+</section>
+
+<style>
+.tcm-backpain-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+  color: #374151;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.tcm-backpain-list li {
+  background: #fff;
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.6rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.tcm-backpain-list li a {
+  text-decoration: none;
+  color: #7a3e00;
+  font-weight: 500;
+  display: block; /* 让点击区域覆盖整条，看起来更高级 */
+}
+
+.tcm-backpain-list li a:hover {
+  color: #b45309;
+}
+
+</style>
+
+
+<div class="mobile-padding">
+<section style="padding: 3rem 0; text-align: center;">
+  <h2 style="font-size: 2rem; font-weight: 700; color: #7a3e00;">
+    Warum TCM bei Rückenschmerzen?
+  </h2>
+
+  <p style="max-width: 700px; margin: 0.5rem auto 2rem; color: #7a3e00;">
+    Die Traditionelle Chinesische Medizin behandelt nicht nur die Symptome –  
+    sondern die Ursache der Schmerzen.
+  </p>
+
+  <div style="max-width: 680px; margin: 0 auto;">
+    <ul style="text-align: left; list-style-position: inside; line-height: 1.8; font-size: 1.1rem; color: #333;">
+      <li>✓  Löst tiefe Muskelverspannungen</li>
+      <li>✓  Reguliert den Energiefluss (Qi) entlang der Wirbelsäule</li>
+      <li>✓  Fördert Durchblutung & Geweberegeneration</li>
+      <li>✓  Reduziert Entzündungen & Nervenreizungen</li>
+      <li>✓  Ganzheitlicher Ansatz statt kurzfristiger Symptombekämpfung</li>
+    </ul>
+  </div>
+</section>
+</div>
+
+
+<div class="mobile-padding">
+<section style="padding: 3rem 0; text-align: center;">
+  <h2 style="font-size: 2rem; font-weight: 700; color: #7a3e00;">
+    Häufige Ursachen aus Sicht der TCM
+  </h2>
+
+  <div style="max-width: 680px; margin: 0 auto;">
+    <ul style="text-align: left; list-style-position: inside; line-height: 1.8; font-size: 1.1rem; color: #333;">
+      <li>✓  Qi- und Blutstagnation (blockierte Energie, „zieht“ oder „sticht“)</li>
+      <li>✓  Kälte & Feuchtigkeit im Rücken (typisch im Winter oder bei Klimaanlage)</li>
+      <li>✓  Nieren-Schwäche (häufig bei chronischen Rückenschmerzen)</li>
+      <li>✓  Muskel- und Sehnenerschöpfung (langes Sitzen / körperliche Überlastung)</li>
+      <li>✓  Blockade der Leitbahnen entlang der Wirbelsäule</li>
+    </ul>
+
+    <p style="margin-top: 1.5rem; color: #7a7a7a; font-size: 1rem; text-align: center;">
+      Die genaue Diagnose erfolgt immer individuell – je nach Schmerzort,  
+      Intensität und Begleitsymptomen.
+    </p>
+  </div>
+</section>
+</div>
+
+
+  <!-- About -->
+  <section>
+    <div class="container about-inner">
+
+      <div class="about-photo">
+        <img src="assets/images/xinbo-tai-tcm-zuerich.jpg" alt="Chin. Dr. Tai" class="card-image" />
+      </div>
+
+      <div class="about-text">
+        <h2 class="section-title" style="text-align:left;">Über Chin. Dr. Tai</h2>
+
+        <p>
+          Chin. Dr. Tai ist ein erfahrener TCM-Therapeut in dritter Generation mit tiefgreifender Expertise in Akupunktur, manueller Therapie und klassischer Kräutermedizin.
+        </p>
+
+        <p>
+          Mit über 30 Jahren klinischer Erfahrung verbindet er traditionelles Wissen mit modernen Erkenntnissen, um wirksame, ganzheitliche und patientenorientierte Behandlungen anzubieten.
+        </p>
+
+        <p>
+          Als Naturheilpraktiker mit eidg. Diplom in TCM ist Chin. Dr. Tai bei vielen Krankenkassen in der Zusatzversicherung anerkannt.
+        </p>
+
+        <p>
+          Je nach Krankenkasse ist die Kostenübernahme unterschiedlich – bitte informieren Sie sich vorgängig bei Ihrer Krankenkasse.
+        </p>
+
+        <div class="about-list">
+          <div class="about-item"><span class="icon">✓</span> Eidgenössisch anerkannter Naturheilpraktiker</div>
+          <div class="about-item"><span class="icon">✓</span> Spezialisierung in manueller TCM-Therapie und TCM-Chiropraktik</div>
+          <div class="about-item"><span class="icon">✓</span> Fliessend Deutsch</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+<!-- Zertifikate / EMR / NAREG section -->
+<section class="cert-section">
+  <h2 class="cert-title">Unsere Anerkennungen & Zertifikate</h2>
+
+  <div class="cert-grid">
+    <img src="assets/images/emr1.png" alt="EMR Zertifikat 1">
+    <img src="assets/images/emr2.png" alt="EMR Zertifikat 2">
+    <img src="assets/images/emr3.png" alt="EMR Zertifikat 3">
+    <img src="assets/images/nareg.png" alt="NAREG Zertifikat">
+  </div>
+</section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2 class="section-title">Unsere Leistungen</h2>
+      <p class="section-subtitle">Wir bieten ein umfassendes Spektrum traditioneller chinesischer Therapien.</p>
+
+      <div class="cards-grid">
+
+        <div class="card">
+          <img src="assets/images/acupuncture-tcm-Zürich.jpg" alt="Akupunktur" />
+          <div class="card-body">
+            <div class="card-title">Akupunktur</div>
+            <div class="card-text">
+              
+              <p>Schnell wirksam bei Schmerz</p>
+            
+              <p>Entspannt Muskulatur</p>
+             
+              <p>Löst Blockaden der Meridiane</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/medicine_drawer_compressed.jpg" alt="Kräutertherapie" />
+          <div class="card-body">
+            <div class="card-title">Chinesische Kräutertherapie</div>
+            <div class="card-text">
+              <p>Bandscheibenproblemen</p>
+           
+              <p>chronischen Schmerzen</p>
+            
+              <p>Schwäche-Muster (Nieren-Qi-Schwäche)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/TCM-Behandlung-TAI TCM GmbH.jpg" alt="Tuina" />
+          <div class="card-body">
+            <div class="card-title">Tuina-Massage</div>
+            <div class="card-text">
+             <p> Muskelentspannung</p>
+           
+             <p> Gelenksmobilisation</p>
+         
+            <p>Lösen tiefsitzender Verspannungen</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/moxa-TAI TCM GmbH.jpg" alt="Moxibustion" />
+          <div class="card-body">
+            <div class="card-title">Schröpfen & Moxibustion</div>
+            <div class="card-text">
+             <p>Ideal bei Muskelverhärtungen</p>
+           
+             <p>Fördert Durchblutung</p>
+           
+             <p>„befreit“ den Rücken</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">Erfahrungsberichte</h2>
+      <p class="section-subtitle">Was unsere Patientinnen und Patienten sagen</p>
+
+      <div class="cards-grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            „Ein grosses Lob an Herr Tai! Er begleitet mich seit Jahren. Sehr professionell, ein herausragender Spezialist für TCM. Absolut empfehlenswert.“
+          </p>
+          <div class="testimonial-name">— Marija D.</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            „Ich war schon mit verschiedenen Problemen bei Hr. Tai und seine Behandlung hat immer gut geholfen. Ich war auch schon in anderen TCM, aber seine manuelle Arbeit (Massage etc.) finde ich deutlich besser.“
+          </p>
+          <div class="testimonial-name">— Karin H.</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            „Tai 醫師 ist ein hochqualifizierter TCM-Therapeut der dritten Generation mit grosser Erfahrung in Akupunktur und Chiropraktik. Ich empfehle ihn jedem, der authentische und wirksame TCM sucht.“
+          </p>
+          <div class="testimonial-name">— Lim J.</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            „Dr. Tai ist sehr kompetent und professionell, ausserdem versteht er gut Deutsch. Seine Behandlungen haben immer eine hervorragende Wirkung. Ich kann ihn nur weiterempfehlen.“
+          </p>
+          <div class="testimonial-name">— Moni H.</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            „Dr Tai is a very reliable and very experienced doctor. He knows what he is doing and knows how to handle the problems you have.“
+          </p>
+          <div class="testimonial-name">— Joe Z.</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            „Lo estoy echando de menos, a todo aquel que tenga problemas en general lo recomiendo.“
+          </p>
+          <div class="testimonial-name">— JLuis G.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Preise Section -->
+  <section class="prices-section">
+    <div class="container">
+
+      <h2 class="section-title">Preise</h2>
+
+      <div class="price-list">
+
+        <div class="price-item">
+          <div>
+            <div class="price-title">Kombinierte Behandlung 60 Min</div>
+            <div class="price-sub">mit Zusatzbehandlungen (ausser Kräuter und Diagnose)</div>
+          </div>
+          <div class="price-value">150.-</div>
+        </div>
+
+        <div class="price-item">
+          <div class="price-title">Tuina-Massage ca. 60 Min</div>
+          <div class="price-value">150.-</div>
+        </div>
+
+        <div class="price-item">
+          <div class="price-title">Akupunktur 45 Min</div>
+          <div class="price-value">120.-</div>
+        </div>
+
+        <div class="price-item">
+          <div class="price-title">Diagnostik nach TCM-Konsultation ca. 10 Min</div>
+          <div class="price-value">30.-</div>
+        </div>
+
+        <div class="price-item">
+          <div class="price-title">Schröpfen ca. 15 Min</div>
+          <div class="price-value">45.-</div>
+        </div>
+
+        <div class="price-item">
+          <div>
+            <div class="price-title">Phytotherapie (Kräuterheilkunde)</div>
+            <div class="price-sub">Erste Rezeptverschreibung</div>
+          </div>
+          <div class="price-value">30.-</div>
+        </div>
+
+        <div class="price-item">
+          <div>
+            <div class="price-title">Phytotherapie (Kräuterheilkunde)</div>
+            <div class="price-sub">Weitere Verschreibung, Nachbestellung</div>
+          </div>
+          <div class="price-value">15.-</div>
+        </div>
+
+        <div class="price-item">
+          <div class="price-title">Ohrakupunktur</div>
+          <div class="price-value">30.-</div>
+        </div>
+
+        <div class="price-item">
+          <div>
+            <div class="price-title">Selber bezahlen</div>
+            <div class="price-sub">eine Stunde Kombi-Behandlung oder nach Wunsch</div>
+          </div>
+          <div class="price-value">120.-</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<section class="map-section" style="padding: 40px 0;">
+  <div class="container" style="max-width: 900px; margin: auto; text-align: center;">
+
+    <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 1rem; color: #7c2d12;">
+      Lageplan & Anfahrt
+    </h2>
+
+    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">
+      TAI TCM GmbH · Schaffhauserstrasse 359 · 8050 Zürich Oerlikon
+    </p>
+
+    <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.15);">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.0626745668537!2d8.543780676381958!3d47.41071867117256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b98b5e3aa84b%3A0x69bae2a97a4b9a70!2sTAI%20TCM%20GmbH!5e0!3m2!1szh-CN!2sch!4v1764641438894!5m2!1szh-CN!2sch"
+        width="100%"
+        height="380"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <div style="margin-top: 1.5rem;">
+      <a 
+        href="https://www.google.com/maps/dir/?api=1&destination=Schaffhauserstrasse+359,+8050+Zürich"
+        target="_blank"
+        style="
+          display: inline-block;
+          background-color: #b45309;
+          padding: 12px 28px;
+          color: white;
+          font-size: 1.1rem;
+          border-radius: 30px;
+          text-decoration: none;
+          font-weight: 600;
+          box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        ">
+        ➜ Route planen
+      </a>
+    </div>
+
+  <!-- Contact -->
+<section>
+  <div class="container contact-inner">
+
+    <div>
+      <h2 class="section-title" style="text-align:left;">Kontaktieren Sie uns</h2>
+
+      <div class="contact-item">
+        <span class="icon"></span>
+        <div>
+          <strong>Adresse</strong><br />
+          Schaffhauserstrasse 359, 8050 Zürich
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span class="icon">☎</span>
+        <div>
+          <strong>Telefon</strong><br />
+          044 811 99 55
+        </div>
+      </div>
+
+      <div class="contact-item">
+        <span class="icon">✉</span>
+        <div>
+          <strong>E-Mail</strong><br />
+          xinbotai@gmail.com
+        </div>
+      </div>
+
+      <div style="margin-top:1.8rem;">
+        <div class="contact-block-title">Öffnungszeiten</div>
+
+        <div class="opening-hours-row"><span>Montag</span><span>08:45–12:00, 14:00–19:00</span></div>
+        <div class="opening-hours-row"><span>Dienstag</span><span>08:45–12:00, 14:00–19:00</span></div>
+        <div class="opening-hours-row"><span>Mittwoch</span><span>08:45–12:00, 14:00–19:00</span></div>
+        <div class="opening-hours-row"><span>Donnerstag</span><span>08:45–12:00, 14:00–19:00</span></div>
+        <div class="opening-hours-row"><span>Freitag</span><span>08:45–12:00, 14:00–19:00</span></div>
+        <div class="opening-hours-row"><span>Samstag</span><span>Nach Vereinbarung</span></div>
+        <div class="opening-hours-row"><span>Sonntag</span><span>Geschlossen</span></div>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="booking-box">
+        <div class="contact-block-title">Termin buchen</div>
+        <p>Buchen Sie Ihren Termin bequem online über unseren Google-Kalender.</p>
+
+        <a
+          href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0jOrw-hPHEO957S6RZcBGwPS0rY0i-FUDVJ6Sfv0rNPMCD3MPv0u5TgITgNzB7ugn0w7aoWx57"
+          class="btn-block"
+          target="_blank"
+        >
+          Online-Termin buchen
+        </a>
+
+        <div class="booking-note">
+          Oder rufen Sie uns direkt an:<br />
+          <strong>044 811 99 55</strong>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- end of contact-inner -->
+
+  <div class="contact-bottom" style="
+  display:flex;
+  justify-content:space-between;
+  margin-top:2rem;
+  font-size:0.95rem;
+  color:#7a3e00;
+">
+
+  <!-- 左对齐：跟 Öffnungszeiten 对齐 -->
+  <div>
+    Hauptseite:
+    <a href="https://www.taitcm.ch"
+       style="color:#b45309; text-decoration:none;"
+       target="_blank">www.taitcm.ch</a>
+  </div>
+
+  <!-- 右对齐：跟 Termin buchen 对齐 -->
+  <div style="text-align:right;">
+    © TAI TCM GmbH
+  </div>
+
+</div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-name">TAI TCM GmbH</div>
+          <div class="footer-sub">Ihr Weg zur natürlichen Gesundheit</div>
+        </div>
+
+        <div class="footer-links">
+          <a href="/impressum">Impressum</a>
+          <a href="/datenschutz">Datenschutz</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2025 TAI TCM GmbH. Alle Rechte vorbehalten.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
